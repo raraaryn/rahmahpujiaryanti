@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    flex: 1;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', serif;
+    min-height: 100vh;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+a {
+    color: black;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: center;
+    padding: 0px;
+}
+
+.beranda {
+    display: flex;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.logo a {
+    font-size: 20px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Poppins', serif;
+    color: #133E87;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    border-bottom: 1px solid #133E87;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #133E87;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 90px;
+}
+
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    flex: 1;
+    text-align: justify;
+}
+
+.fotodiri {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', serif;
+    color: #133E87;
+}
+
+h1 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+    color: black;
+    width: 100%; 
+}
+
+h3 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+    color: black;
+    width: 100%;
+}
+
+
+
+.footer {
+    background-color: #133E87;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 2px;
+    bottom: 0;
+}
+
+/*PENDIDIKAN*/
+
+.box-edu {
+    width: 480px;
+    height: 230px;
+    background-color: white;
+    border-style: solid;
+    border-color: #133E87;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    float: left;
+}
+
+.pendidikan {
+    width: 100%;
+    text-align: center; 
+}
+
+.container-edu {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 2px; 
+    flex-wrap: wrap; 
+    margin-top: 10px; 
+}
+
+.box-edu:hover {
+    background-color: #D9EAFD;
+}
+
+/*ORGANISASI*/
+
+.container-org {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 2px; 
+    flex-wrap: wrap; 
+    margin-top: 10px; 
+}
+
+.box-org {
+    width: 300px;
+    height: 220px;
+    background-color: white;
+    border-style: solid;
+    border-color: #133E87;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    float: left;
+}
+
+.organisasi{
+    max-width: 1500px;
+}
+
+.box-org:hover {
+    background-color: #D9EAFD; 
+}
+
+/*AKTIVITAS*/
+
+.box-pd {
+    width: 300px;
+    height: 260px;
+    background-color: white;
+    border-style: solid;
+    border-color: #133E87;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    float: left; 
+}
+
+.box-pd:hover {
+    background-color: #D9EAFD;
+}
+
+/*KONTAK*/
+
+
+.kontak {
+    padding: 1px 20px 20px 20px;
+    margin: 10px 20px 20px 20px; 
+    justify-content: center; 
+    align-items: center;   
+}
+
+kontak .h2 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.container-contact {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 2px; 
+    flex-wrap: wrap; 
+    margin-top: 10px; 
+}
+
+.box-contact {
+    width: 480px;
+    height: 500px;
+    background-color: white;
+    border-color: #133E87;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+    padding: 1px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
+    float: left;
+}
+
+.isikontak form {
+    width: 400px;
+    text-align: center;
+}
+
+
+.input-box .input-field {
+    width: 48,5%;
+    position: center;
+    margin-left: 40px;
+}
+
+.field .item {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #133E87;
+    outline: none;
+    border-radius: 5px;
+    font-family: "Poppins", serif;
+    font-size: 12px;
+    color: black;
+    margin: 12px 0;
+}
+
+.field .item:placeholder {
+    color:darkgrey;
+}
+
+form .textarea-field .item {
+    resize: none;
+    position: center;
+    margin-left: 40px;
+    width: 360px;
+}
+
+form button {
+    padding: 5px 20px;
+    background-color: white;
+    color: #133E87;
+    font-family: "Poppins", serif;
+    font-size: 12px;
+    border: 1px solid #133E87;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+form button:hover {
+    background-color: #133E87;
+    color: white;
+}
+
+.field .error-txt {
+    font-family: "Poppins", serif;
+    font-size: 11px;
+    text-align: left;
+    color: red;
+    margin: -5px 0 10px;
+    display: none;
+}
+
+form .textarea-field .error-txt {
+    margin-top: -10px;
+}
+
+a ion-icon {
+    font-size: 50px;  /* Ubah ukuran ikon */
+    gap: 30px;
+    color: #133E87;   /* Warna ikon */
+    margin: 0 20px;
+}
+
+a ion-icon:hover {
+    transform: scale(1.2);
+}
